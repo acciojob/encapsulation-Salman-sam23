@@ -5,7 +5,7 @@ public class Main {
         RWOnly obj = new RWOnly();
 
         //Before getter and setter
-        //obj.name="Vinit";                     //Error-- The field RWOnly.name is not visible
+        //obj.name="salman";                     //Error-- The field RWOnly.name is not visible
         //System.out.println(obj.name);    //Error-- The field RWOnly.name is not visible
         
         obj.setName("salman");

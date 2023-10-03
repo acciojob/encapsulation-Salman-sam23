@@ -4,9 +4,10 @@ public class Main {
     public static void main(String[] args) {
         RWOnly obj = new RWOnly();
 
-        //Before getter and setter
-        //obj.name="salman";                     //Error-- The field RWOnly.name is not visible
-        //System.out.println(obj.name);    //Error-- The field RWOnly.name is not visible
+        
+        //obj.name="salman";                     
+        //System.out.println(obj.name);   
+        //name' has private access in 'com.driver.RWOnly' 
         
         obj.setName("salman");
         System.out.println(obj.getName());
